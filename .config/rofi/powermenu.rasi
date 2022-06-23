@@ -1,0 +1,31 @@
+@theme "config.rasi"
+
+* {
+    border: 0;
+    background-color: #2B323940;
+}
+
+
+window {
+    width: 180px;
+    x-offset: -96px;
+    y-offset: 34px;
+    location: northeast;
+}
+
+inputbar {
+    enabled: false;
+}
+
+listview {
+    lines: 5;
+    columns: 1;
+}
+
+element {
+    padding: 8px;
+}
+
+element-text {
+    background-color: @transparent;
+}

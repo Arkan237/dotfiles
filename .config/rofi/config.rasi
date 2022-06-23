@@ -1,0 +1,41 @@
+configuration {
+    font: "Ubuntu-R 16px";
+    icon-theme: "Papirus";
+    disable-history: true;
+}
+
+@theme "/dev/null"
+
+* {
+    bg-color: #2B32398C;
+    bg-alt: #00000000;
+    fg-color: #FFFFFF;
+    fg-alt: #3A587A80;
+    transparent: #00000000;
+
+    background-color: @bg-color;
+    border: 3px;
+    text-color: @fg-color;
+}
+
+window {
+    width: 50%;
+    padding: 5px;
+    margin: 0;
+    border: 0;
+}
+
+element {
+    text-color: #999;
+}
+
+element-text {
+    background-color: inherit;
+    text-color: inherit;
+}
+
+element.selected {
+    border: 0;
+    background-color: @fg-alt;
+    text-color: @fg-color;
+}
